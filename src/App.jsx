@@ -14,12 +14,12 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/design" element={<Design />} />
-          <Route path="/devlog" element={<DevLog />} />
-          <Route path="/beta" element={<Beta />} />
-          <Route path="/art" element={<Art />} />
+          <Route path="/Unfolded-Dev-Log/" element={<Home />} />
+          <Route path="/Unfolded-Dev-Log/team" element={<Team />} />
+          <Route path="/Unfolded-Dev-Log/design" element={<Design />} />
+          <Route path="/Unfolded-Dev-Log/devlog" element={<DevLog />} />
+          <Route path="/Unfolded-Dev-Log/beta" element={<Beta />} />
+          <Route path="/Unfolded-Dev-Log/art" element={<Art />} />
         </Routes>
       </div>
     </>
