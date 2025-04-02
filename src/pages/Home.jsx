@@ -5,7 +5,7 @@ const Home = () => {
       <p>Welcome to the homepage!</p>
       <p>Under Construction!</p>
       <img
-        src="./src/assets/warningsign.png"
+        src="./imgs/warningsign.png"
         alt="Warning Sign"
         className="mx-auto w-1/3 max-w-[200px] h-auto"
       ></img>
