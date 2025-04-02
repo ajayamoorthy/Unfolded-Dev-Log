@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Design from "./pages/Design";
 import DevLog from "./pages/DevLog";
+import Alpha from "./pages/Alpha";
 import Beta from "./pages/Beta";
 import Art from "./pages/Art";
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/design" element={<Design />} />
           <Route path="/devlog" element={<DevLog />} />
+          <Route path="/alpha" element={<Alpha />} />
           <Route path="/beta" element={<Beta />} />
           <Route path="/art" element={<Art />} />
         </Routes>

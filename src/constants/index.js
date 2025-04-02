@@ -41,8 +41,9 @@ export const navigation = [
   { id: "1", title: "Team", url: "/team" },
   { id: "2", title: "Design", url: "/design" },
   { id: "3", title: "Dev Log", url: "/devlog" },
-  { id: "4", title: "Beta", url: "/beta" },
-  { id: "5", title: "Art", url: "/art" },
+  { id: "4", title: "Alpha", url: "/alpha" },
+  { id: "5", title: "Beta", url: "/beta" },
+  { id: "6", title: "Art", url: "/art" },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
