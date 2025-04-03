@@ -10,8 +10,16 @@ const DevLog = () => {
           title: "April 2, 2025",
           cardTitle: "First Progress Update",
           cardDetailedText: [
-            "Tech: The current build in Unreal Engine has a simple first pass of the projectile attack system we plan to use, worked on by Lada. A functional first pass of the portal level traversal system has also been added to the game, worked on by Ananya.",
-            "Art: Concept art for our magical boy main character, enemies, and NPCs was drawn by Quiqui. Prop concept art, main character 3d model blockout, and NPC 3d model blockout has been worked on by Allison. Concept art for the game map and implementation of a graybox level in the game engine was done by Kylie.",
+            "The beginning! The Unreal project for Unfolded was created in Unreal Engine, with the goal of making a top-down, dungeon crawler-esque game. Basic narrative and general mechanics were decided upon, the details of which can be found under the design tab of this website. Visual motifs and themes were developed and passed to the art team to work on. The breakdown of work for each team was as follows:",
+            "Tech:",
+            "Lada worked on mapping the player movement controls and the projectile attacks that fire from the player when the user presses “E”.",
+            "Anu worked on creating a portal traversal system that would take the player character from one part of the game map to another.",
+            "Luca worked on making a basic enemy that when clicked on loses health.",
+            "---",
+            "Art:",
+            "Kylie worked on the concept art for the game’s map and environments and created the graybox environment for the game. This was implemented into the Unreal project.",
+            " Quiqui worked on concept art for the main player character, the enemies, and the NPCs. He also worked on environmental assets for the game.",
+            "Allison worked on concept art for some environmental assets and made significant progress sculpting and creating clothing for the main player character.",
           ],
         },
       ]}
