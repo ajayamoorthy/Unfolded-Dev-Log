@@ -183,6 +183,13 @@ const images = [
     team: "art",
     sprint: "sprint 2",
   },
+  {
+    id: "27",
+    src: "./imgs/kylie/graybox.png",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 1",
+  },
 ];
 
 export default function Art() {
