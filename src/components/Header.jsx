@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 border-b border-n-6 bg-gray-900 lg:bg-gray-800/90 lg:backdrop-blur-sm">
+    <div className="fixed top-0 left-0 w-full z-50 border-b border-n-6 bg-gray-900 lg:bg-gray-800/90 lg:backdrop-blur-sm drop-shadow-[0_10px_10px_rgba(144,122,214,0.5)]">
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <NavLink className="block w-[12rem] xl:mr-8" to="/">
           <span className="text-white text-2xl font-bold tracking-wide">
