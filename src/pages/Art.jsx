@@ -38,7 +38,7 @@ const images = [
   },
   {
     id: "6",
-    src: "./imgs/quiqui/slime_concept.png",
+    src: "./imgs/quiqui/slime_concept.jpg",
     person: "quiqui",
     team: "art",
     sprint: "sprint 2",
