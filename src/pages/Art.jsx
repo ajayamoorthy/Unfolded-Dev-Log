@@ -6,58 +6,201 @@ const images = [
     src: "./imgs/allison/nursery_props_concept.png",
     person: "allison",
     team: "art",
+    sprint: "sprint 1",
   },
   {
     id: "2",
     src: "./imgs/quiqui/colin_concept.png",
     person: "quiqui",
     team: "art",
+    sprint: "sprint 1",
   },
   {
     id: "3",
     src: "./imgs/quiqui/creepy_baby_concept.png",
     person: "quiqui",
     team: "art",
+    sprint: "sprint 1",
   },
   {
     id: "4",
     src: "./imgs/quiqui/gaga_concept.png",
     person: "quiqui",
     team: "art",
+    sprint: "sprint 1",
   },
   {
     id: "5",
     src: "./imgs/quiqui/mr_oomp_concept.png",
     person: "quiqui",
     team: "art",
+    sprint: "sprint 1",
   },
   {
     id: "6",
-    src: "./imgs/kylie/glow_cave_concept.jpg",
-    person: "kylie",
+    src: "./imgs/quiqui/slime_concept.png",
+    person: "quiqui",
     team: "art",
+    sprint: "sprint 2",
   },
   {
     id: "7",
-    src: "./imgs/kylie/maps_concept.jpg",
+    src: "./imgs/kylie/glow_cave_concept.jpg",
     person: "kylie",
     team: "art",
+    sprint: "sprint 1",
+  },
+  {
+    id: "8",
+    src: "./imgs/kylie/maps_concepts.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 1",
+  },
+  {
+    id: "9",
+    src: "./imgs/quiqui/env_assets_disp.png",
+    person: "quiqui",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "10",
+    src: "./imgs/quiqui/heart_enemy_disp1.png",
+    person: "quiqui",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "11",
+    src: "./imgs/quiqui/heart_enemy_disp2.png",
+    person: "quiqui",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "12",
+    src: "./imgs/kylie/gaga_turnaround_render.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "13",
+    src: "./imgs/kylie/gaga_topdown.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "14",
+    src: "./imgs/kylie/glicky.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "15",
+    src: "./imgs/kylie/rocks_assets.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "16",
+    src: "./imgs/kylie/tex_modular.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "17",
+    src: "./imgs/kylie/untex_modular.jpg",
+    person: "kylie",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "18",
+    src: "./imgs/allison/Baby_Back.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "19",
+    src: "./imgs/allison/Baby_Front.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "20",
+    src: "./imgs/allison/Baby_Side.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "21",
+    src: "./imgs/allison/Baby_TopDown.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "22",
+    src: "./imgs/allison/Player_Back.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "23",
+    src: "./imgs/allison/Player_Front.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "24",
+    src: "./imgs/allison/Player_Side.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "25",
+    src: "./imgs/allison/Player_TopDown.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
+  },
+  {
+    id: "26",
+    src: "./imgs/allison/mr_oomp_turnaround.png",
+    person: "allison",
+    team: "art",
+    sprint: "sprint 2",
   },
 ];
 
 export default function Art() {
   const [personFilter, setPersonFilter] = useState(null);
   const [teamFilter, setTeamFilter] = useState(null);
+  const [sprintFilter, setSprintFilter] = useState(null);
 
   const filteredImages = images.filter((img) => {
     return (
       (!personFilter || img.person === personFilter) &&
-      (!teamFilter || img.team === teamFilter)
+      (!teamFilter || img.team === teamFilter) &&
+      (!sprintFilter || img.sprint === sprintFilter)
     );
   });
 
   const uniquePeople = [...new Set(images.map((img) => img.person))];
   const uniqueTeams = [...new Set(images.map((img) => img.team))];
+  const uniqueSprints = [...new Set(images.map((img) => img.sprint))];
 
   return (
     <div className="p-6">
@@ -82,6 +225,19 @@ export default function Art() {
         >
           <option value="">All Teams</option>
           {uniqueTeams.map((t) => (
+            <option key={t} value={t}>
+              {t}
+            </option>
+          ))}
+        </select>
+
+        <select
+          className="p-2 border rounded"
+          value={sprintFilter ?? ""}
+          onChange={(e) => setSprintFilter(e.target.value || null)}
+        >
+          <option value="">All Sprints</option>
+          {uniqueSprints.map((t) => (
             <option key={t} value={t}>
               {t}
             </option>
