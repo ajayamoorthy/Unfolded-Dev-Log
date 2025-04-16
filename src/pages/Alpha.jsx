@@ -47,6 +47,15 @@ const Alpha = () => {
               Alpha Download
             </a>
           </Button>
+          <Button className="text-2xl">
+            <a
+              href="https://www.canva.com/design/DAGkpAtwEcY/2g1FS1pm2CBx_s74mhRe1Q/view?utm_content=DAGkpAtwEcY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h413733e145"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link to Presentation
+            </a>
+          </Button>
         </div>
       </div>
 
