@@ -30,6 +30,14 @@ const Alpha = () => {
             the graybox and attack the enemies and kill them.
           </p>
 
+          <h2 className="text-2xl font-bold mb-4">Game Controls</h2>
+          <p className="body-1 mb-6 text-n-2">
+            WASD - controls the player's movements (up, left, down, right)
+          </p>
+          <p className="body-1 mb-6 text-n-2">
+            Right Mouse Button - fire projectiles at enemies
+          </p>
+
           <Button className="text-2xl">
             <a
               href="https://drive.google.com/file/d/1RnITgBqhNgkVFxfPxw9M-pW5NuaByf9e/view?usp=drive_link"
