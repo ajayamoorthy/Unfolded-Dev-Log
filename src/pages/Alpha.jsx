@@ -1,4 +1,4 @@
-import UnfoldedAlpha from "../assets/files/UnfoldedAlpha.zip";
+//import UnfoldedAlpha from "../assets/files/UnfoldedAlpha.zip";
 import ButtonGradient from "../assets/svg/ButtonGradient";
 import Button from "../components/Button";
 
@@ -31,7 +31,11 @@ const Alpha = () => {
           </p>
 
           <Button className="text-2xl">
-            <a href={UnfoldedAlpha} target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://drive.google.com/file/d/1RnITgBqhNgkVFxfPxw9M-pW5NuaByf9e/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Alpha Download
             </a>
           </Button>
