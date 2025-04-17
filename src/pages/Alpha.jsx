@@ -40,7 +40,7 @@ const Alpha = () => {
 
           <Button className="text-2xl">
             <a
-              href="https://drive.google.com/file/d/1RnITgBqhNgkVFxfPxw9M-pW5NuaByf9e/view?usp=drive_link"
+              href="https://drive.google.com/drive/folders/1tjdSstgK0z4PfNwmKHa6jSELWwGjOmW9?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
