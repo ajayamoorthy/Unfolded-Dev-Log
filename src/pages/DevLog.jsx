@@ -7,6 +7,25 @@ const DevLog = () => {
     <Chrono
       items={[
         {
+          title: "April 16, 2025",
+          cardTitle: "Third Progress Update",
+          cardDetailedText: [
+            "This week was a crunch week as we prepared for our alpha release of the game. The focus was to get as much done in the engine as possible without causing the game to “break” while also getting our alpha presentation completed. The in-engine game is starting to match our vision as we have begun to implement the assets the art team has been working on. The baby boss room now has a bunch of environmental assets and our main player character model, Colin, has actually been added to the game!",
+            "Enemies have now been added to the project and the default robot asset provided by Unreal has been replaced by the models the art team has developed. As of right now, the enemies can follow the player character and be attacked. The enemy attack mechanic has not been implemented yet, meaning Colin is immune to attacks. This will change, of course.",
+            "The breakdown of work for each team was as follows:",
+            "---",
+            "Tech:",
+            "Lada aided in implementing and retargeting the new main character player model, as well as building an updated Alpha build for our PAX submission.",
+            "Anu started work on a dialogue/narrative system and also started work on a material that causes the environment walls to disappear when the camera gets too close.",
+            "Luca created child blueprints for all the enemies, with all models implemented in game. The enemies have been placed in game for the player to interact with.",
+            "---",
+            "Art:",
+            "Kylie finished sculpting one of the enemies as well as optimizing and rigging it. Any remaining work on arranging environmental assets in engine was also completed, as well as the modeling and retopo of Colin’s gun.",
+            "Quiqui imported all his environmental assets to the engine. He also finished texturing the enemy he had sculpted and started texturing environmental assets.",
+            "Allison implemented the player model and textures and retargeted animations from the default model to the player. She also began texturing and rigging the OoMP character as well as beginning to texture environment assets for the baby room.",
+          ],
+        },
+        {
           title: "April 9, 2025",
           cardTitle: "Second Progress Update",
           cardDetailedText: [
