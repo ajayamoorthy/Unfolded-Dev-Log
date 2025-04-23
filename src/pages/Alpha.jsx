@@ -5,8 +5,34 @@ import Button from "../components/Button";
 const Alpha = () => {
   return (
     <div className="p-10">
-      <h1 className="text-4xl font-bold text-center mb-10">Alpha Release</h1>
+      <h1 className="text-4xl font-bold text-center mb-10">Initial Releases</h1>
 
+      <h1 className="text-3xl font-bold text-center mb-10">Playtest Release</h1>
+
+      <div className="flex justify-center gap-4">
+        <Button className="text-2xl">
+          <a
+            href="https://drive.google.com/drive/folders/1uruizFO4f95zkAnzAX928egRgixI3wSd?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Playtest Download
+          </a>
+        </Button>
+        <Button className="text-2xl">
+          <a
+            href="https://forms.gle/5oKMmwjLYgJpPFcr7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Link to Playtest Form
+          </a>
+        </Button>
+      </div>
+
+      <h1 className="text-3xl font-bold text-center mb-10"></h1>
+      <h1 className="text-3xl font-bold text-center mb-10">Alpha Release</h1>
+      <h1 className="text-3xl font-bold text-center mb-10"></h1>
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10">
         <div className="w-full lg:w-1/2">
           {/* <video
