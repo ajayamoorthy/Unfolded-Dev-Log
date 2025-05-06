@@ -7,6 +7,30 @@ const DevLog = () => {
     <Chrono
       items={[
         {
+          title: "April 22, 2025",
+          cardTitle: "Prep for Playtesting Update",
+          cardDetailedText: [
+            "This week involved bug fixes and implementations in time for playtesting. The features that were included in the playtesting build are as follows:",
+            "- Updated graybox",
+            "- Wall-disappearing material added to some walls",
+            "- All enemy variations have been implemented",
+            "The art team has textured most assets.",
+            "Our approach to designing playtesting questions was to create different categories and ask questions based on those categories. We chose to ask about general game experience, the gameplay mechanics, and the game experience. For more information on playtesting, head to the alpha page where you can check out the Playtesting Build and Playtesting Form.",
+            "In terms of the playtesting build, we ran into an issue where the .umap file that holds the level we had been working does not properly update in between branches in GitHub. The workaround we are currently using involved us reverting to an older, unbroken save file and updating it with the most recent functionality to get a sufficient playtesting build.",
+            "The breakdown of work for each team was as follows:",
+            "---",
+            "Tech:",
+            "Lada made new projectile vfx to better match the game theme and added in new footstep shaders for the player.",
+            "Anu made a variation of the wall-disappearing material that was “smoother” after receiving feedback that the existing material seemed too choppy. She also completed the dialogue system and hooked it up to objects in the level.",
+            "Luca worked on implementing animations for enemies and a projectile system for the gaga and baby enemies as they are ranged enemies. They also added mechanics for the player to be damaged by enemies.",
+            "---",
+            "Art:",
+            "Kylie finished texturing the demon enemy and creating a staircase asset. Final changes on collisions, especially for climbable objects, was also completed. The demon enemy was also rerigged due to earlier scaling issues.",
+            "Quiqui finished texturing all his environmental assets.",
+            "Allison imported updated textures for the baby enemy and imported environmental assets and textures for the baby room. The OoMP’s rig was also completed and textures are near complete.",
+          ],
+        },
+        {
           title: "April 16, 2025",
           cardTitle: "Third Progress Update",
           cardDetailedText: [
