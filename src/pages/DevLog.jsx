@@ -7,8 +7,28 @@ const DevLog = () => {
     <Chrono
       items={[
         {
+          title: "April 29, 2025",
+          cardTitle: "Fifth Progress Update",
+          cardDetailedText: [
+            "Now that playtesting was completed, we were able to update the level map that was broken before. We started over in a new .umap file and had one of our artists recreate the graybox while implementing the suggestions made to us in the playtesting forms. The environment was expanded and materials were added.",
+            "Alongside the continued development of enemies, the tech team is also working on ironing out the game’s visual effects alongside the UI. This includes menus and credits alongside new fun visuals such as tentacles that react to the player.",
+            "The art team is finalizing more environment and character details to tie the game together such as our player’s weapon and more assets for the environment. Additionally, rigs for other characters are being finished and audio implementation has begun.",
+            "The breakdown of work for each team was as follows:",
+            "---",
+            "Tech:",
+            "Lada added in a main menu level, created a pause menu, and created a temporary credits level along with continuing vfx.",
+            "Anu started working with VFX and Niagara Systems in Engine. For this week, she implemented weird tentacle-like plants and decided on what effects would be added to the different environments to create the mood we were looking for. She started work on realistic water simulations and volumetric fog.",
+            "Luca continued on working on projectiles and making a dash trail and UI elements to indicate player health.",
+            "---",
+            "Art:",
+            "Kylie finished texturing Colin’s gun, rocks for the glow cave, as well as the staircase asset. The rerigged demon was also implemented into the engine with the intent of retargeting mixamo animations to it, but the retargeting had issues.",
+            "Quiqui finished animating the 4 Baby animations. Quiqui also found and edited some audio for the boss fight.",
+            "Allison finished the OoMP rig, textures, and a floating animation for when he appears in game. Allison also found audio assets for use in the game.",
+          ],
+        },
+        {
           title: "April 22, 2025",
-          cardTitle: "Prep for Playtesting Update",
+          cardTitle: "Fourth Progress Update: Prep for Playtesting Update",
           cardDetailedText: [
             "This week involved bug fixes and implementations in time for playtesting. The features that were included in the playtesting build are as follows:",
             "- Updated graybox",
