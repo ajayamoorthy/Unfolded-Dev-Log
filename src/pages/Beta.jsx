@@ -10,21 +10,21 @@ const Beta = () => {
 
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10">
         <div className="w-full lg:w-1/2">
-          {/* <video
-            src="/demo.mp4"
+          <video
+            src=".imgs/multiperson/TrailerOoMPS.mp4"
             controls
             className="w-full rounded-xl shadow-lg"
-          /> */}
-          <img
+          />
+          {/* <img
             src="./imgs/kylie/gaga_turnaround_render.jpg"
             alt="Alpha Preview"
             className="w-full rounded-xl shadow-lg"
-          />
+          /> */}
         </div>
 
         <div className="w-full lg:w-1/2 text-left mx-auto">
-          <h2 className="text-2xl font-bold mb-4">Build State</h2>
-          <p className="body-1 mb-6 text-n-2">Build Info to be Updated.</p>
+          {/* <h2 className="text-2xl font-bold mb-4">Build State</h2>
+          <p className="body-1 mb-6 text-n-2">Build Info to be Updated.</p> */}
 
           <h2 className="text-2xl font-bold mb-4">Game Controls</h2>
           <p className="body-1 mb-6 text-n-2">
