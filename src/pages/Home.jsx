@@ -1,5 +1,5 @@
-import AnuPortfolio from "public/assets/files/AnanyaJayamoorthyPortfolio.pdf";
-import LadaPortfolio from "public/assets/files/Lada_Portfolio.pdf";
+import AnuPortfolio from "../assets/files/AnanyaJayamoorthyPortfolio.pdf";
+import LadaPortfolio from "../assets/files/Lada_Portfolio.pdf";
 
 const Home = () => {
   return (
