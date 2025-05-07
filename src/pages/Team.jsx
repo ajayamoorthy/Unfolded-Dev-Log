@@ -6,7 +6,6 @@ const techTeam = [
     pronouns: "she/her",
     role: "Programmer",
     imgSrc: "./imgs/4-small.png",
-    pdfLink: "/assets/files/AnanyaJayamoorthyPortfolio.pdf",
     externalLink: "https://github.com/ajayamoorthy",
   },
   {
@@ -14,7 +13,6 @@ const techTeam = [
     pronouns: "they/them",
     role: "Programmer",
     imgSrc: "./imgs/4-small.png",
-    pdfLink: "/assets/files/Lada_Portfolio.pdf",
     externalLink: "https://ladadimascolo.carrd.co",
   },
   {
