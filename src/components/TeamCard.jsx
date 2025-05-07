@@ -29,7 +29,7 @@ const TeamCard = ({ name, pronouns, role, imgSrc, pdfLink, externalLink }) => {
             rel="noopener noreferrer"
             className="bg-white text-purple-700 font-semibold py-2 px-4 rounded shadow hover:bg-purple-100 transition"
           >
-            View PDF
+            Portfolio PDF
           </a>
         )}
       </div>
