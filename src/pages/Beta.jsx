@@ -11,7 +11,7 @@ const Beta = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10">
         <div className="w-full lg:w-1/2">
           <video
-            src=".imgs/multiperson/TrailerOoMPS.mp4"
+            src="./imgs/multiperson/TrailerOoMPS.mp4"
             controls
             className="w-full rounded-xl shadow-lg"
           />
