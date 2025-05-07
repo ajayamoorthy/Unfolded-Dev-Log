@@ -1,5 +1,6 @@
 import ButtonGradient from "../assets/svg/ButtonGradient";
 import Button from "../components/Button";
+import PlaytestingReport from "../assets/files/Unfolded Playtesting Report.pdf";
 
 const Beta = () => {
   return (
@@ -57,13 +58,9 @@ const Beta = () => {
         </div>
       </div>
       <div className="flex justify-center mt-8">
-        <Button className="text-2xl">
-          <a
-            href="https://docs.google.com/document/d/1D8We1BC5neKVEmWg2p0Tfh1BJVknFJX9DXelVY6RPEk/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Link to Playtesting Report
+        <Button className="mt-10 text-2xl">
+          <a href={PlaytestingReport} target="_blank" rel="noopener noreferrer">
+            Download Playtesting Report Doc
           </a>
         </Button>
       </div>

@@ -6,21 +6,22 @@ const techTeam = [
     pronouns: "she/her",
     role: "Programmer",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    pdfLink: "/files/AnanyaJayamoorthyPortfolio.pdf",
+    externalLink: "https://github.com/ajayamoorthy",
   },
   {
     name: "Lada DiMascolo",
     pronouns: "they/them",
     role: "Programmer",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    externalLink: "https://ladadimascolo.carrd.co",
   },
   {
     name: "Luca Wol",
     pronouns: "they/them",
     role: "Programmer",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    //externalLink: "https://portfolio.com/luca",
   },
 ];
 
@@ -30,21 +31,21 @@ const artTeam = [
     pronouns: "she/her",
     role: "Artist",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    //externalLink: "https://portfolio.com/allison",
   },
   {
     name: "Kylie Beaudry",
     pronouns: "she/her",
     role: "Artist",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    externalLink: "https://kbeaudry3d.carrd.co/",
   },
   {
     name: "Quiqui Donahue",
     pronouns: "he/him",
     role: "Artist",
     imgSrc: "./imgs/4-small.png",
-    skills: ["skill", "skill", "skill"],
+    //externalLink: "https://portfolio.com/quiqui",
   },
 ];
 
@@ -62,7 +63,8 @@ const Team = () => {
             pronouns={member.pronouns}
             role={member.role}
             imgSrc={member.imgSrc}
-            skills={member.skills}
+            pdfLink={member.pdfLink}
+            externalLink={member.externalLink}
           />
         ))}
       </div>
@@ -76,7 +78,8 @@ const Team = () => {
             pronouns={member.pronouns}
             role={member.role}
             imgSrc={member.imgSrc}
-            skills={member.skills}
+            pdfLink={member.pdfLink}
+            externalLink={member.externalLink}
           />
         ))}
       </div>

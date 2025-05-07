@@ -1,4 +1,4 @@
-const TeamCard = ({ name, pronouns, role, imgSrc, skills }) => {
+const TeamCard = ({ name, pronouns, role, imgSrc, pdfLink, externalLink }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-purple-500 p-6 m-4 text-center">
       <img
@@ -11,15 +11,27 @@ const TeamCard = ({ name, pronouns, role, imgSrc, skills }) => {
         <p className="text-white text-base mb-1">{pronouns}</p>
         <p className="text-white text-base">{role}</p>
       </div>
-      <div className="px-6 pt-1 pb-2">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+      <div className="px-6 pt-4 flex justify-center gap-4 flex-wrap">
+        {externalLink && (
+          <a
+            href={externalLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-purple-700 font-semibold py-2 px-4 rounded shadow hover:bg-purple-100 transition"
           >
-            {skill}
-          </span>
-        ))}
+            More Info
+          </a>
+        )}
+        {pdfLink && (
+          <a
+            href={pdfLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-purple-700 font-semibold py-2 px-4 rounded shadow hover:bg-purple-100 transition"
+          >
+            View PDF
+          </a>
+        )}
       </div>
     </div>
   );

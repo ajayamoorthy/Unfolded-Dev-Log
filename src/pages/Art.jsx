@@ -218,6 +218,20 @@ const images = [
     team: "art",
     sprint: "beta",
   },
+  {
+    id: "32",
+    src: "./imgs/allison/oomp_halfturn.gif",
+    person: "allison",
+    team: "art",
+    sprint: "beta",
+  },
+  {
+    id: "33",
+    src: "./imgs/allison/baby_halfturn.gif",
+    person: "allison",
+    team: "art",
+    sprint: "beta",
+  },
 ];
 
 export default function Art() {
