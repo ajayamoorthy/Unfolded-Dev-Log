@@ -7,6 +7,27 @@ const DevLog = () => {
     <Chrono
       items={[
         {
+          title: "May 7, 2025",
+          cardTitle: "Sixth and Final Progress Update",
+          cardDetailedText: [
+            "Welcome to the final Unfolded Dev Log!",
+            "From the tech side, all of our menus have been fully implemented and finalized, including animations, updates to health bars, and implementing a few more UI elements such as “interact” and “controls”. New niagara systems have been implemented such as waterfalls, water, glow effects, and more. Lastly, the dialogue system has been fully implemented. The enemies have also been completed with their animations, attacks, and effects.",
+            "On the art side, screens such as the main menu were illustrated, new enemy animations were completed, textures were adjusted, audio was implemented, and we now have a trailer! Our artists also completed the final presentation for the Unfolded beta release.",
+            "The Beta release for this project has been created! Goodbye to IMGD 4000/4500.",
+            "The breakdown of work for each team was as follows:",
+            "---",
+            "Tech:",
+            "Lada implemented the main menu designed by quiqui and animated it, drew and implemented new Dialogue UI, implemented and animated a pause menu, created a cel shader for the game, created new footstep vfx, and implemented audio.",
+            "Anu did a lot of tech art, including finalizing the Niagara System for the water, creating local volumetric fog, and a Niagara System based waterfall. She also wrote and implemented just under 100 lines of dialogue. The website was built and updated by her as well.",
+            "Luca fully implemented the projectile system for the Gaga and Baby monster and implemented the animations for each enemy and added the health bar widget for both the player and the enemies.",
+            "---",
+            "Art:",
+            "Kylie animated an attack animation for the demon enemy. She also found several mixamo animations for it as well as troubleshooting implementation of mixamo’s auto-rigged skeleton. Two stalagmite assets were implemented, major and accent lighting was tweaked, and materials for disappearing walls were placed and configured.",
+            "Quiqui illustrated a title screen, animated the heart and made the trailer.",
+            "Allison made adjustments to the Player and OoMP textures to better fit the lighting in-game. Allison also finished finding audio assets for the game. Allison rigged the heart enemy.",
+          ],
+        },
+        {
           title: "April 29, 2025",
           cardTitle: "Fifth Progress Update",
           cardDetailedText: [
